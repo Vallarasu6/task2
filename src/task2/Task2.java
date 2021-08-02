@@ -53,11 +53,7 @@ public class Task2 {
          obj7.setSal(60000);
          obj7.setRollnum(100);
          obj7.setRole("Developer");
-         System.out.println("Name: "+ obj7.getName());
-         System.out.println("Id: " + obj7.getId());  
-         System.out.println("Salary: " +obj7.getSal());
-         System.out.println("Roll Number: " +obj7.getRollnum());
-         System.out.println("Role: " +obj7.getRole());
+         System.out.println(obj7);
         break;
             }
               case 8:{
