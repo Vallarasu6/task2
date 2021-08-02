@@ -18,6 +18,7 @@ private String id;
 private double sal;
 private int rollnum;
 private String role;
+    
 public String getName(){
     return name;
 }
@@ -48,4 +49,9 @@ public String getRole(){
 public void setRole(String role){
   this.role=role;
 }
+    @Override
+    public String toString(){
+    String output = "name: "+name+" "+"id: "+id+" "+"sal: "+sal+" "+"rollnum: "+rollnum+" "+"role: "+role;
+        return output;
+    }
 }
